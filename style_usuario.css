@@ -1,0 +1,59 @@
+body {
+    width: 90%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    margin: 1rem;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.container4 {
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+}
+
+.formusuario {
+    display: flex; /* Define o formulário como flexível */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    margin: 3rem;
+    font-size: 30px; /* Define o tamanho da fonte */ 
+}
+
+.formusuario input {
+    height: 35px; /* Altura da caixa de entrada */
+    width: 20rem; /* Largura ocupando todo o espaço disponível */
+    border-radius: 5px; /* Arredondamento das bordas */
+    margin-bottom: 20px; /* Espaço entre os campos */
+    padding: 10px; /* Preenchimento interno */
+    box-sizing: border-box; /* Inclui preenchimento e bordas na largura total */
+    display: flex; /* Define o formulário como flexível */
+}
+
+.bemvindotext{
+   
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #28994F;
+    font-size: 25px;
+    display: flex; /* Define o formulário como flexível */
+
+}
+.container0 {
+    display: flex; /* Define o formulário como flexível */
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;    
+}
+
+.botaoentrarusuario {
+    background-color: #28994F;
+    cursor: pointer; /* Muda o cursor para o estilo padrão de clique */
+}

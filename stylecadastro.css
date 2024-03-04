@@ -1,0 +1,86 @@
+body {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex; /* Define o container como flexível */
+    justify-content: center;
+    margin: 0;
+    margin-right: 0;
+}
+
+.container1 { /* caixa onde esta o container 2 e 3 */
+    width: 80%;
+    height: 80vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,8); /* Adiciona sombra */
+    display: flex; /* Define o container como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin: 0;
+}
+
+.container3 { /* onde esta o formulario */
+    width: 20%;
+    height: 80vh;
+    margin: 0.1rem;
+    flex: 2; /* Ocupa dois terços do espaço disponível */
+    background-color:#D9D9D9; /* Apenas para fins de visualização */
+    margin: 0;
+    
+}
+
+.container2 {  /* onde esta a imagem */
+    width: 80%;
+    height: 80vh;
+    display: flex; /* Define o container como flexível */
+    margin:0 ;
+    flex: 1; /* Ocupa um terço do espaço disponível */
+    background-color: #28994F; /* Apenas para fins de visualização */
+
+}
+
+.form-blocos { /* os blocos nome,usuario, etc.. */
+    display: flex; /* Define o formulário como flexível */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+    margin: 3rem;
+    font-size: 30px; /* Define o tamanho da fonte */
+    
+}
+
+.form-blocos input { /* os blocos em si nome usuario etc..*/
+    height: 30px; /* Define a altura da caixa de entrada */
+    border-radius: 5px; /* Valor em pixels para arredondar as bordas */
+    
+}
+
+.container2 img { /* a imagem em si */
+    width: 100%; /* A imagem ocupará 100% da largura do contêiner */
+    height: auto; /* A altura será ajustada automaticamente para manter as proporções originais */
+    margin: 20px;
+    
+}
+
+.cadastext { /* text cadastrese aqui */
+    margin: auto;
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #28994F;
+    font-size: 25px;
+}
+
+
+.botaoenviar {
+    background-color: #28994F;
+    margin-right: 30px;
+    cursor: pointer; /* Muda o cursor para o estilo padrão de clique */
+    
+}
+
+.botaoentrar {
+    background-color: transparent; /* Torna o fundo transparente */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Muda o cursor para o estilo padrão de clique */
+    text-decoration: underline; /* Adiciona sublinhado ao texto */
+    color: #28994F; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 0; /* Remove o preenchimento interno */
+}
